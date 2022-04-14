@@ -121,10 +121,7 @@ form{
 }
 
 #cadastrar{
-    background: url(https://cdn-icons.flaticon.com/png/512/2626/premium/2626962.png?token=exp=1649804284~hmac=4af745f335b29e5a38f9749dcff9441a), #e50914;
-    background-position:  95%;
-    background-size: 1.5rem;
-    background-repeat: no-repeat;
+    background: #e50914;
     width: 10rem;
     min-height: 3.75rem;
     font-size: 1.3rem;
