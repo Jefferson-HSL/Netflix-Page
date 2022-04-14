@@ -1,0 +1,142 @@
+body{
+    color: #ffffff;
+    margin: 0;
+    height: 99.9vh;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+main{
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/0bd3a69d-6790-4edc-9818-1c8c558946c2/64643bdf-d283-4d45-b0e9-2b9255667e2b/BR-pt-20220329-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-blend-mode: color(#000000);
+    height: 100vh;
+}
+
+#main{
+    background: #000000BF;
+    height: 100vh;
+    border: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin: 0 3.5rem;
+    padding-top: 1.25rem;
+    gap: 2rem;
+}
+
+#logotipo{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#logo{
+    width: 8rem;
+    height: 2.4rem;
+}
+
+#home{
+    cursor: default;
+}
+
+#idiomas{
+    display: flex;
+    align-items: flex-end;
+}
+
+select{
+    background-color: #000000BF;
+    color: #ffffff;
+    padding: 0.5rem;
+    border: #ffffff 0.1rem solid;
+    border-radius: 0.1rem;
+}
+
+select:focus{
+    border-radius: 0.1rem;
+}
+
+option{
+    background-color: grey;
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+#log-in{
+    display: flex;
+    align-items: flex-end;
+}
+
+#entrar{
+    background: #E50914;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.188rem;
+    padding: 0.55rem 1.063rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: normal;
+    cursor: pointer;
+    text-decoration: none;
+    height: 1.1rem;
+}
+
+#seção{
+    height: 87vh;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    width: 100%;
+    font:3.125rem 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: space-around;
+}
+
+#email{
+    min-width:30rem;
+    height: 3.75rem;
+    font-size: 1rem;
+    padding-left: 0.6rem;
+    border: none;
+    border-radius: 0.1rem;
+}
+
+#email:focus{
+    outline: none;
+}
+
+#cadastrar{
+    background: url(https://cdn-icons.flaticon.com/png/512/2626/premium/2626962.png?token=exp=1649804284~hmac=4af745f335b29e5a38f9749dcff9441a), #e50914;
+    background-position:  95%;
+    background-size: 1.5rem;
+    background-repeat: no-repeat;
+    width: 10rem;
+    min-height: 3.75rem;
+    font-size: 1.3rem;
+    padding: 0 1.625rem 0 1.625rem;
+    color: #ffffff;
+    border: 0;
+    border-left: 1rem;
+    border-radius: 0.1rem;
+    cursor: pointer;
+    margin: 0;
+}
+
+#cadastrar:hover{
+    background-color: #f30914;
+}

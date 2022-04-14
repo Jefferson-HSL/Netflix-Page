@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1a1a1a;
+    color: #ffffff;
+    width: 100%;
+    height: 99.8vh;
+    margin: 0;
+    box-shadow: inset 0 0 6rem #000000;
+}
+
+#logotipo{
+    display: flex;
+    align-items: flex-start;
+    width: 98%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+a{
+    cursor: default;
+}
+
+#logo{
+    width: 8rem;
+    height: 2.5rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    text-align: center;
+    font-size: 3.3rem;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+
+#perfis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+#perfil{
+    width: 8rem;
+    height: 8rem;
+    cursor: pointer;
+}
+
+h2{
+    color: grey;
+    text-align: center;
+    font-weight: normal;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#gerenciar{
+    display: flex;
+    justify-content: center;
+}
+
+#button{
+    background: #1a1a1a;
+    color: grey;
+    border: grey 0.1rem solid;
+    cursor: pointer;
+    width: 11rem;
+    height: 2rem;
+    text-align: center;
+}
