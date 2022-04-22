@@ -26,4 +26,4 @@ HTML 5 | CSS 3
 
 ## Autores
 
-| [<img src="https://avatars.githubusercontent.com/u/84472608?v=4" width=115><br><sub>Jefferson Henrique Santos Lima</sub>](https://github.com/Jefferson-HSL)
+[<img src="https://avatars.githubusercontent.com/u/84472608?v=4" width=115><br><sub>Jefferson Henrique Santos Lima</sub>](https://github.com/Jefferson-HSL)
